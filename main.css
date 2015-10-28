@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href='dist/css/bootstrap.css'>
+<link rel='stylesheet' type='text/css' href='main.css'>
+<link rel='stylesheet' type='text/css' href='Portraits.css'>
+
+
+  <title>Contact</title>
+  
+ </head>
+ 
+ 
+<body>
+
+<div id='header'>
+<div class='row'>
+		<div class='col-sm-1'>
+			<a href="file:///Users/lucysharp/Desktop/Coding/website.html"><img src='images/two.jpg' width="100" height="100"></a>		
+		</div>	
+		<div class='col-sm-11'>
+			<h1>Amelia Florence</h1>
+			<ul>
+				<li><a href="file:///Users/lucysharp/Desktop/Coding/website.html">Home</a></li>
+				<li><a href="file:///Users/lucysharp/Desktop/Coding/gallery.html">Gallery</a></li>
+				<li><a href="file:///Users/lucysharp/Desktop/Coding/comissions.html">Commission Process</a></li>
+				<li><a href="file:///Users/lucysharp/Desktop/Coding/about.html">About me</a></li>
+				<li><a href="file:///Users/lucysharp/Desktop/Coding/sale.html">For Sale</a></li>
+				<li id='selected'><a href="file:///Users/lucysharp/Desktop/Coding/contact.html">Contact me</a></li>	
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div id='wholecontact'>
+<div class='container'>
+	<div id='contact'>
+		<h4>Please get in touch if you would like to commission a portrait or find about more.</h4>
+		<h4>Email: <i>amelia.florence.portraits@gmail.com</i></h4>
+		<h4>Mobile: 07775991142</h4>
+	</div>
+	<div id='contact'>	
+		<h4>Please also check out the Amelia Florence facebook page to see my latest portraits.</h4>
+		<a href="https://www.facebook.com/amelia.florence.portraits"><img src='images/facebook.png' width="35" height="35"></a>		
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id='end'>
+<p>Website designed by Lucy Sharp and Lucy Wallis</p>
+</div>
+
+</body> 
+
+<style>
+body {background-color: #F2F2F2;}
+h2 {text-align: center;}
+p {text-align: right;}
+</style>
