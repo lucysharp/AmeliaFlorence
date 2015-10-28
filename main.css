@@ -1,71 +1,156 @@
-<!DOCTYPE html>
-<html>
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="stylesheet" href='dist/css/bootstrap.css'>
-<link rel='stylesheet' type='text/css' href='main.css'>
-<link rel='stylesheet' type='text/css' href='Portraits.css'>
+#home, #cycler {
+	text-align: center;
+	width:600px;
+	height: 600px;
+	margin-bottom: 50px;
+}
 
-
-  <title>Contact</title>
-  
- </head>
- 
- 
-<body>
-
-<div id='header'>
-<div class='row'>
-		<div class='col-sm-1'>
-			<a href="file:///Users/lucysharp/Desktop/Coding/website.html"><img src='images/two.jpg' width="100" height="100"></a>		
-		</div>	
-		<div class='col-sm-11'>
-			<h1>Amelia Florence</h1>
-			<ul>
-				<li><a href="file:///Users/lucysharp/Desktop/Coding/website.html">Home</a></li>
-				<li><a href="file:///Users/lucysharp/Desktop/Coding/gallery.html">Gallery</a></li>
-				<li><a href="file:///Users/lucysharp/Desktop/Coding/comissions.html">Commission Process</a></li>
-				<li><a href="file:///Users/lucysharp/Desktop/Coding/about.html">About me</a></li>
-				<li><a href="file:///Users/lucysharp/Desktop/Coding/sale.html">For Sale</a></li>
-				<li id='selected'><a href="file:///Users/lucysharp/Desktop/Coding/contact.html">Contact me</a></li>	
-			</ul>
-		</div>
-	</div>
-</div>
+#shadow {
+	box-shadow: 10px 10px 5px grey;
+}
 
 
-<div id='wholecontact'>
-<div class='container'>
-	<div id='contact'>
-		<h4>Please get in touch if you would like to commission a portrait or find about more.</h4>
-		<h4>Email: <i>amelia.florence.portraits@gmail.com</i></h4>
-		<h4>Mobile: 07775991142</h4>
-	</div>
-	<div id='contact'>	
-		<h4>Please also check out the Amelia Florence facebook page to see my latest portraits.</h4>
-		<a href="https://www.facebook.com/amelia.florence.portraits"><img src='images/facebook.png' width="35" height="35"></a>		
-	</div>
-</div>
-</div>
+#picture {
+	text-align: center;
+	}
+	
+#bold {
+margin-top: 30px;
+}
+	
+#rotateone {
+   -webkit-transform: rotate(355deg);
+    -moz-transform: rotate(355deg);
+    -o-transform: rotate(355deg);
+    -ms-transform: rotate(355deg);
+    transform: rotate(355deg);
+}
 
+#rotatetwo {
+  -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
 
+#rotatethree {
+  -webkit-transform: rotate(355deg);
+    -moz-transform: rotate(355deg);
+    -o-transform: rotate(355deg);
+    -ms-transform: rotate(355deg);
+    transform: rotate(355deg);
+}
 
+#home img {
+	height: 100%;
+}
 
 
 
+h1 { 
+	color: black;
+	text-align: left;
+}
+
+#header {
+font-family: 'Georgia';
+}
+
+#header {
+padding-top: 20px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+}
+
+#header h1 {
+margin-left: 70px;
+}
+
+.title {
+margin-top: 40px;
+background-color: #E6E6E6;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.title .h1 {
+font-weight: 100px;
+}
+
+#header img {
+border-radius: 60px;
+margin-left: 30px;
+}
+
+#header li {
+display: inline;
+margin: 0 0.5em 0 0;
+}
+
+#header ul {
+	list-style: none;
+	padding:50;
+	float: left;
+	font-size: 18px;
+}
+
+#header li a {
+	padding: 0 1em;
+}
+
+#header #selected {
+	padding-bottom: 1px; 
+	background-color: #D8D8D8;
+	border-radius: 10px;
+}
+
+#example {
+margin-left: 50px;
+margin-top: 70px;
+font-family: 'Georgia';
+text-align: center;
+}
+
+
+.container {
+padding-top: 0px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+font-family: georgia;
+margin-left: 30px;
+}
+
+#end {
+font-family: 'Georgia';
+}
+
+.container #contact {
+text-align: center;
+}
+#wholecontact {
+margin-bottom: 130px;
+}
+
+.row {
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+#contact {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#submit {
+text-align: center;
+}
 
 
 
-
-<div id='end'>
-<p>Website designed by Lucy Sharp and Lucy Wallis</p>
-</div>
-
-</body> 
-
-<style>
-body {background-color: #F2F2F2;}
-h2 {text-align: center;}
-p {text-align: right;}
-</style>
